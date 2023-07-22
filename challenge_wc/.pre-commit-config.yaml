@@ -1,0 +1,7 @@
+---
+repos:
+  - repo: https://github.com/arenadotio/pre-commit-ocamlformat
+    rev: master
+    hooks:
+     - id: ocamlformat
+       exclude: "^vendor/"

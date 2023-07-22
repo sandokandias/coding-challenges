@@ -1,0 +1,4 @@
+
+(tests
+ (names test_count)
+ (libraries wc ounit2))
